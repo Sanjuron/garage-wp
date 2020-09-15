@@ -1,0 +1,63 @@
+/*
+Theme Name: Theme enfant
+Description: Theme enfant de Sanjuron
+Author: Sanjuron
+Author URI: 
+Template: page-builder-framework
+Version: 0.1.0
+*/
+
+/* ajout de css */
+
+h1{
+    color: #009cbf;
+    text-align: center;
+    font-size: 6rem;
+    border: 1px solid ;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+p, li{
+    font-size: 1.5rem;
+    color: #2d2d2d;	
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #009cbf; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+a {
+    color: #ffffff;
+    font-size : 1rem;
+}
+
+.wpbf-navigation{
+    background-color: #009cbf;    
+}
+
+.wpbf-container{
+    /* width: 2000px; */
+}
+
+body {
+    background-color : #009cbf;
+}
+
+#menu-menu-principal{
+    width: 100%;
+}
